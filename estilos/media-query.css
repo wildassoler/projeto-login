@@ -9,25 +9,25 @@ Desktop: 992px ate 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 568px) and (max-width:768px) {
+@media screen and (min-width: 468px) and (max-width:768px) {
     
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
-        width: 450px;
+        width: 400px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 40%;
+        width: 35%;
         height: 100%;
     }
 
     section#login > div#forumalario {
         float: right;
-        width: 40%;
+        width: 35%;
 
     }
 }
